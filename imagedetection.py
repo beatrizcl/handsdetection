@@ -55,7 +55,7 @@ def detect_letter(landmarks):
 
     return ""
 
-# Loop principal
+# Loop 
 while True:
     ret, frame = webcam.read()
     if not ret:
